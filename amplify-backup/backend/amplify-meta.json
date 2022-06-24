@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-workshop-dev-142951-authRole",
+      "UnauthRoleArn": "arn:aws:iam::734769706552:role/amplify-workshop-dev-142951-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::734769706552:role/amplify-workshop-dev-142951-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-workshop-dev-142951-deployment",
+      "UnauthRoleName": "amplify-workshop-dev-142951-unauthRole",
+      "StackName": "amplify-workshop-dev-142951",
+      "StackId": "arn:aws:cloudformation:eu-west-1:734769706552:stack/amplify-workshop-dev-142951/5ac93d80-f3b9-11ec-8a32-0a73897efd97",
+      "AmplifyAppId": "d3pafzrkxd7swd"
+    }
+  },
+  "auth": {
+    "workshop38641935": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-workshop-dev-142951-deployment/amplify-cfn-templates/auth/workshop38641935-cloudformation-template.json",
+        "logicalId": "authworkshop38641935"
+      },
+      "lastPushTimeStamp": "2022-06-24T12:39:24.086Z",
+      "output": {
+        "UserPoolId": "eu-west-1_AdSrRL3Jo",
+        "AppClientIDWeb": "18hcj09ro95u6ovq63irntbgt9",
+        "AppClientID": "hrovq3jnaljjc0e2ht462k5vi",
+        "IdentityPoolId": "eu-west-1:692526ff-f8d9-45c8-9880-06ec0465997d",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-west-1:734769706552:userpool/eu-west-1_AdSrRL3Jo",
+        "IdentityPoolName": "workshop38641935_identitypool_38641935__dev",
+        "UserPoolName": "workshop38641935_userpool_38641935"
+      },
+      "lastPushDirHash": "oh5xy9sguA4UpafytUVFNUaD8qc="
+    }
+  }
+}
